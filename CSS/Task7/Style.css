@@ -1,0 +1,52 @@
+/* Global font */
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background-color: rgb(240, 238, 236);
+}
+
+/* Sticky Header */
+.site-header {
+  position: sticky;        
+  top: 0;                  
+  z-index: 1000;           
+
+  background-color: #1d8997;
+  color: #000000;
+  padding: 12px 24px;
+  border-bottom: 3px solid #04264d;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  background-color:rgb(201, 160, 111);
+  color: #000;
+}
+
+.content {
+  max-width: 800px;
+  margin: 80px auto 40px;  /* margin for text isn't under header */ 
+  padding: 0 16px;
+}
+
+.content h1 {
+  margin-bottom: 16px;
+}
