@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>University Admission Form (Online)</title>
+</head>
+<body>
+  <h1>University Admission Form (Online)</h1>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+    <!-- Personal Information Section -->
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="fullName">Full Name:</label><br>
+      <input type="text" id="fullName" name="fullName" required maxlength="50"><br><br>
+
+      <label for="fatherName">Father's Name:</label><br>
+      <input type="text" id="fatherName" name="fatherName" required maxlength="50"><br><br>
+
+      <label for="motherName">Mother's Name:</label><br>
+      <input type="text" id="motherName" name="motherName" required maxlength="50"><br><br>
+
+      <span>Gender:</span><br>
+      <input type="radio" id="genderMale" name="gender" value="Male" required>
+      <label for="genderMale">Male</label><br>
+
+      <input type="radio" id="genderFemale" name="gender" value="Female">
+      <label for="genderFemale">Female</label><br>
+
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required maxlength="60"><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="text" id="phone" name="phone" required maxlength="15"><br><br>
+
+      <label for="address">Present Address:</label><br>
+      <textarea id="address" name="address" rows="4" cols="40" required maxlength="200"></textarea><br><br>
+    </fieldset>
+
+    <!-- Academic Information Section -->
+    <fieldset>
+      <legend>Academic Information</legend>
+
+      <h3>SSC / O-Level</h3>
+      <label for="sscInstitution">Institution Name:</label><br>
+      <input type="text" id="sscInstitution" name="sscInstitution" required maxlength="80"><br><br>
+
+      <label for="sscBoard">Board / Exam Authority:</label><br>
+      <input type="text" id="sscBoard" name="sscBoard" required maxlength="40"><br><br>
+
+      <label for="sscYear">Year of Passing:</label><br>
+      <input type="text" id="sscYear" name="sscYear" required maxlength="4"><br><br>
+
+      <label for="sscGpa">GPA / Grade:</label><br>
+      <input type="text" id="sscGpa" name="sscGpa" required maxlength="5"><br><br>
+
+      <h3>HSC / A-Level</h3>
+      <label for="hscInstitution">Institution Name:</label><br>
+      <input type="text" id="hscInstitution" name="hscInstitution" required maxlength="80"><br><br>
+
+      <label for="hscBoard">Board / Exam Authority:</label><br>
+      <input type="text" id="hscBoard" name="hscBoard" required maxlength="40"><br><br>
+
+      <label for="hscYear">Year of Passing:</label><br>
+      <input type="text" id="hscYear" name="hscYear" required maxlength="4"><br><br>
+
+      <label for="hscGpa">GPA / Grade:</label><br>
+      <input type="text" id="hscGpa" name="hscGpa" required maxlength="5"><br><br>
+
+      <label for="preferredDept">Preferred Department:</label><br>
+      <select id="preferredDept" name="preferredDept" required>
+        <option value="">-- Select Department --</option>
+        <option value="CSE">Computer Science and Engineering (CSE)</option>
+        <option value="EEE">Electrical and Electronic Engineering (EEE)</option>
+        <option value="BBA">Bachelor of Business Administration (BBA)</option>
+        <option value="ENG">English</option>
+        <option value="LAW">Law</option>
+      </select><br><br>
+
+      <span>Areas of Interest:</span><br>
+      <input type="checkbox" id="interestAI" name="interests" value="AI">
+      <label for="interestAI">Artificial Intelligence</label><br>
+
+      <input type="checkbox" id="interestIOT" name="interests" value="IOT">
+      <label for="interestIOT">IOT</label><br>
+
+      <input type="checkbox" id="interestBusiness" name="interests" value="Business">
+      <label for="interestBusiness">Business Studies</label><br>
+      
+      <input type="checkbox" id="interestEnglish" name="interests" value="English">
+      <label for="interestEnglish">English</label><br>
+
+      <input type="checkbox" id="interestPublic_Rights" name="interests" value="Public_Rights">
+      <label for="interestPublic_Rights">Public_Rights</label><br><br>
+    </fieldset>
+
+    <!-- Documents Section -->
+    <fieldset>
+      <legend>Required Documents</legend>
+
+      <label for="photo">Upload Recent Passport Size Photo:</label><br>
+      <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+      <label for="transcript">Upload Academic Transcripts (SSC &amp; HSC):</label><br>
+      <input type="file" id="transcript" name="transcript" accept=".pdf,.jpg,.jpeg,.png" multiple required><br><br>
+    </fieldset>
+
+    <!-- Form Controls -->
+    <br>
+    <input type="submit" value="Submit Application">
+    <input type="reset" value="Reset Form">
+  </form>
+</body>
+</html>
