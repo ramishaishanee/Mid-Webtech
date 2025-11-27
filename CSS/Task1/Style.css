@@ -2,13 +2,13 @@ body {
   font-family: 'Sitka Small Semibold', Times, serif;
   margin: 0;
   padding: 0;
-  background-color: #a97272;
+  background-color: #9d8484;
 }
 
 .site-header {
   text-align: center;
-  background-color: #286685;
-  color: #ffffff;
+  background-color: #417f9e;
+  color: #150202;
   padding: 20px 10px;
   margin-bottom: 20px;
 }
@@ -18,8 +18,8 @@ body {
   max-width: 600px;
   margin: 0 auto 30px auto; 
   padding: 20px;           
-  border: 2px solid #cccccc;
-  background-color: #ffffff;
+  border: 2px solid #12365b;
+  background-color: #417f9e;
   text-align: center;
   box-sizing: border-box;  
 }
@@ -52,7 +52,7 @@ body {
 .site-footer {
   text-align: center;
   padding: 10px;
-  background-color: #286685;
-  color: #ffffff;
+  background-color: #417f9e;
+  color: #150202;
   font-size: 0.8em;
 }
