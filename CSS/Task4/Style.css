@@ -1,0 +1,119 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Sitka Small Semibold', Times, serif;
+  background: linear-gradient(135deg, #f5f7fb, #e4ecff);
+  color: #222;
+}
+
+/*  Header  */
+
+.header {
+  text-align: center;
+  padding: 24px 16px;
+  background: #004466;
+  color: #ffffff;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.header p {
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/*  Product section  */
+
+.product-section {
+  max-width: 1100px;
+  margin: 32px auto 40px;
+  padding: 0 16px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 1.6rem;
+}
+
+/* Container for cards */
+.product-grid {
+  text-align: center; 
+}
+
+/* Product card */
+
+.product-card {
+  display: inline-block;         
+  width: 280px;
+  height: 450px;
+  margin: 12px;                  
+  padding: 18px 16px;             
+  border: 1px solid #d1d5e6;      
+  border-radius: 10px;
+  background-color: #ffffff;      
+  text-align: center;            
+  vertical-align: top;
+  transition: outline 0.18s ease, outline-offset 0.18s ease, transform 0.18s ease;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 180px;
+  height: 180px;    
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.product-name {
+  margin: 8px 0;
+  font-size: 1.15rem;
+}
+
+.product-desc {
+  margin: 6px 0 12px;
+  font-size: 0.9rem;
+  color: #5e5d5d;
+}
+
+.product-price {
+  margin: 0 0 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #1a2a6c;
+}
+
+.product-link {
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #ffffff;
+  background: #ff6b35;
+  border-radius: 999px;
+}
+
+
+.product-card:hover {
+  outline: 2px solid #ff6b35;   
+  outline-offset: 4px;          
+  transform: translateY(-3px);  
+}
+
+
+.footer {
+    background-color: #004466;
+  text-align: center;
+  padding: 12px 8px;
+  font-size: 0.85rem;
+  color: #d6d6d6;
+}

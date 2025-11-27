@@ -4,7 +4,7 @@
 .homepage-nav {
   display: block;
   width: 100%;
-  background-color: #0e303d;
+  background-color: #136934;
   padding: 10px 0;
   text-align: center; 
 }
@@ -14,13 +14,13 @@
   color: #ffffff;
   text-decoration: none;     
   border: solid rgb(212, 210, 209);
-  border-radius: 20%;  
+  border-radius: 10%;  
   padding: 10px 20px;               
   margin: 0 5px;                    
   font-family: Arial, sans-serif;
 }
 
 .homepage-nav .nav-link:hover {
-  background-color: #ace8ff;        
+  background-color: #dc8742;        
   color: #333333;                   
 }
