@@ -1,0 +1,48 @@
+/* Global font */
+body {
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Positioning context */
+.container {
+  position: relative;
+  width: 600px;
+  height: 300px;
+}
+
+/* Common box style */
+.box {
+  position: absolute;
+  width: 200px;
+  height: 120px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Box 1: red */
+.box1 {
+  background-color: red;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+
+/* Box 2: blue */
+.box2 {
+  background-color: blue;
+  top: 80px;
+  left: 120px;
+  z-index: 2;
+}
+
+/* Box 3: green */
+.box3 {
+  background-color: green;
+  top: 120px;
+  left: 200px;
+  z-index: 3;
+}

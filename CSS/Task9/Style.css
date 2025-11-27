@@ -21,20 +21,20 @@ body {
 .sidebar {
   width: 20%;
   height: 400px;
-  background-color: #669ac0;
+  background-color: #b8ddf7;
 }
 
 .main-content {
   overflow: auto;
   width: 60%;
   height: 400px;
-  background-color: #da94ef;
+  background-color: #e0bdea;
 }
 
 .advertisement {
   width: 20%;
   height: 400px;
-  background-color: #f1d5a5;
+  background-color: #f7ead4;
 }
 
 .section h2 {
