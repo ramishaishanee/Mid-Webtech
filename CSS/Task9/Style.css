@@ -1,0 +1,42 @@
+body {
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.site-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #390128;
+  margin-right: -4px; 
+  min-height: 300px;
+}
+
+.sidebar {
+  width: 20%;
+  height: 400px;
+  background-color: #669ac0;
+}
+
+.main-content {
+  overflow: auto;
+  width: 60%;
+  height: 400px;
+  background-color: #da94ef;
+}
+
+.advertisement {
+  width: 20%;
+  height: 400px;
+  background-color: #f1d5a5;
+}
+
+.section h2 {
+  margin-top: 0;
+}

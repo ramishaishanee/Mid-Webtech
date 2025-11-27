@@ -1,0 +1,43 @@
+body {
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.overflow-box {
+  width: 300px;   
+  height: 200px;  
+
+  border: 2px solid #000;    
+  padding: 10px;             
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+/* overflow: visible
+   Effect:  Extra content shows outside the box (overlapping)
+ */
+.box-visible {
+  overflow: visible;
+}
+
+/* overflow: hidden
+   Effect:  Extra content is clipped 
+*/
+.box-hidden {
+  overflow: hidden;
+}
+
+/* overflow: scroll
+   Effect: Scrollbars always shown
+*/
+.box-scroll {
+  overflow: scroll;
+}
+
+/* overflow: auto
+   Effect: Scrollbars only if needed 
+*/
+.box-auto {
+  overflow: auto;
+}
