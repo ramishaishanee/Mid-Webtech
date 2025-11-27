@@ -1,0 +1,26 @@
+.body{
+    font-family: 'Sitka Small Semibold', Times, serif;
+}
+.homepage-nav {
+  display: block;
+  width: 100%;
+  background-color: #0e303d;
+  padding: 10px 0;
+  text-align: center; 
+}
+
+.homepage-nav .nav-link {
+  display: inline-block;           
+  color: #ffffff;
+  text-decoration: none;     
+  border: solid rgb(212, 210, 209);
+  border-radius: 20%;  
+  padding: 10px 20px;               
+  margin: 0 5px;                    
+  font-family: Arial, sans-serif;
+}
+
+.homepage-nav .nav-link:hover {
+  background-color: #ace8ff;        
+  color: #333333;                   
+}

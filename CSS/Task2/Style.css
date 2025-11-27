@@ -1,0 +1,44 @@
+body {
+  font-family: 'Sitka Small Semibold', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efe5e8;
+}
+
+.section {
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+/* Different background colors for each section */
+#about {
+  background-color: #fff6e9; 
+  border: solid rgb(207, 90, 155);
+}
+
+#education {
+  background-color: #fff6e9; 
+  border: solid rgb(207, 90, 155);
+
+}
+
+#hobbies {
+  background-color: #fff6e9; 
+  border: solid rgb(207, 90, 155);
+
+}
+
+/* Custom horizontal rule */
+hr {
+  border: none;
+  height: 4px;
+  background-color: #888888;
+  width: 85%;
+  margin: 20px auto;
+}
+
+h2 {
+  margin-top: 0;
+}
