@@ -1,0 +1,58 @@
+body {
+  font-family: 'Sitka Small Semibold', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #a97272;
+}
+
+.site-header {
+  text-align: center;
+  background-color: #286685;
+  color: #ffffff;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.profile-box {
+  width: 60%;              
+  max-width: 600px;
+  margin: 0 auto 30px auto; 
+  padding: 20px;           
+  border: 2px solid #cccccc;
+  background-color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;  
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;      
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.student-name {
+  font-size: 2em;        
+  margin: 10px 0;
+}
+
+.student-dept,
+.student-id {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.student-bio {
+  font-size: 0.9em;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #286685;
+  color: #ffffff;
+  font-size: 0.8em;
+}
