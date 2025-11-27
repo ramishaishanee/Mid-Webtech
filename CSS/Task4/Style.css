@@ -15,7 +15,7 @@ body {
 .header {
   text-align: center;
   padding: 24px 16px;
-  background: #004466;
+  background: #71104c;
   color: #ffffff;
 }
 
@@ -89,7 +89,7 @@ body {
   margin: 0 0 12px;
   font-weight: bold;
   font-size: 1rem;
-  color: #1a2a6c;
+  color: #103c71;
 }
 
 .product-link {
@@ -98,20 +98,20 @@ body {
   font-size: 0.9rem;
   text-decoration: none;
   color: #ffffff;
-  background: #ff6b35;
+  background: #969f1b;
   border-radius: 999px;
 }
 
 
 .product-card:hover {
-  outline: 2px solid #ff6b35;   
+  outline: 2px solid #1b3e9f;   
   outline-offset: 4px;          
   transform: translateY(-3px);  
 }
 
 
 .footer {
-    background-color: #004466;
+    background-color: #71104c;
   text-align: center;
   padding: 12px 8px;
   font-size: 0.85rem;
