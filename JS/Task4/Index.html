@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <h1>Student Management System</h1>
+
+  <form id="studentForm" onsubmit="return addStudent()">
+    <label for="nameTF">Name:</label>
+    <input type="text" id="nameTF" name="name">
+    
+    <label for="rollTF">Roll:</label>
+    <input type="text" id="rollTF" name="roll">
+    
+    <label for="deptTF">Department:</label>
+    <input type="text" id="deptTF" name="dept">
+    
+    <button type="submit">Add Student</button>
+    <span id="formERR" class="error"></span>
+  </form>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll</th>
+        <th>Department</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <!-- rows will be added here -->
+    </tbody>
+  </table>
+
+</body>
+</html>
