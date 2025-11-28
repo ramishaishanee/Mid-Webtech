@@ -1,0 +1,42 @@
+body {
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #d7f1f7;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.field-group {
+  margin-top: 10px;
+  display: none; /* hidden by default */
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-family: inherit;
+}
