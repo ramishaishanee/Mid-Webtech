@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+
+</head>
+<body>
+    <h1>Student Portal Signup</h1>
+
+  <form id="signupForm">
+    <!-- Full Name -->
+    <label for="fullName">Full Name</label><br>
+    <input type="text" id="fullName" name="fullName">
+    <div class="error" id="fullNameError"></div>
+    <br>
+
+    <!-- Email -->
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email">
+    <div class="error" id="emailError"></div>
+    <br>
+
+    <!-- Password -->
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password">
+    <div class="error" id="passwordError"></div>
+    <br>
+
+    <!-- Confirm Password -->
+    <label for="confirmPassword">Confirm Password</label><br>
+    <input type="password" id="confirmPassword" name="confirmPassword">
+    <div class="error" id="confirmPasswordError"></div>
+    <br>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number</label><br>
+    <input type="text" id="phone" name="phone">
+    <div class="error" id="phoneError"></div>
+    <br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="successMessage"></p>
+
+</body>
+</html>
